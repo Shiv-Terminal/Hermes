@@ -26,17 +26,18 @@ export default function LandingPage() {
         
         <div className="relative z-10 text-center px-4">
           <h1 className="text-6xl md:text-9xl font-extrabold tracking-tighter mb-6 italic text-white">
+          <h1 className="text-6xl md:text-9xl font-extrabold tracking-tighter mb-6 italic text-white drop-shadow-[0_5px_15px_rgba(0,0,0,0.8)]">
             RESONANCE <br />
-            <span className="text-rose-600">OF THE SOUL</span>
+            <span className="text-rose-500">OF THE SOUL</span>
           </h1>
-          <p className="text-xl md:text-2xl text-slate-400 max-w-2xl mx-auto mb-10 font-light italic">
+          <p className="text-xl md:text-2xl text-slate-200 max-w-2xl mx-auto mb-10 font-light italic drop-shadow-md">
             "The world was no longer a place of walls... but the residue of a dream remains."
           </p>
           <div className="flex gap-4 justify-center">
-            <a href="#plot" className="px-8 py-3 bg-rose-600 hover:bg-rose-700 transition-all rounded-full font-bold text-white uppercase tracking-widest">
+            <a href="#plot" className="px-8 py-3 bg-rose-600 hover:bg-rose-700 transition-all rounded-full font-bold text-white uppercase tracking-widest shadow-xl">
               Explore the Story
             </a>
-            <a href="#characters" className="px-8 py-3 bg-slate-800 hover:bg-slate-700 transition-all rounded-full font-bold text-white uppercase tracking-widest border border-slate-600">
+            <a href="#characters" className="px-8 py-3 bg-slate-700 hover:bg-slate-600 transition-all rounded-full font-bold text-white uppercase tracking-widest border border-slate-500 shadow-xl">
               Meet the Echoes
             </a>
           </div>
