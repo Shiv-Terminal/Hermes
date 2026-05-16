@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface SectionProps {
@@ -25,7 +24,6 @@ export default function LandingPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-950/50 to-slate-950" />
         
         <div className="relative z-10 text-center px-4">
-          <h1 className="text-6xl md:text-9xl font-extrabold tracking-tighter mb-6 italic text-white">
           <h1 className="text-6xl md:text-9xl font-extrabold tracking-tighter mb-6 italic text-white drop-shadow-[0_5px_15px_rgba(0,0,0,0.8)]">
             RESONANCE <br />
             <span className="text-rose-500">OF THE SOUL</span>
@@ -73,7 +71,7 @@ export default function LandingPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             { name: 'Luna', role: 'The Echo of Zero Two', desc: 'A Seeker with crimson hair and eyes of rose-pink, carrying the burden of a thousand-year-old love.', color: 'text-rose-500', img: 'https://images.unsplash.com/photo-1534528741775-276bb85e3912?auto=format&fit=crop&q=80&w=400' },
-            { name: 'Haruto', role: 'The Echo of Hiro', desc: 'A silent observer from the North, possessing a deep resonance and a soul that recognizes its partner.', color: 'text-blue-400', img: 'https://images.unsplash.com/photo-1506790153644-7b6d7e7d577d?auto=format&fit=crop&q=80&w=400' },
+            { name: 'Haruto', role: 'The Echo of Hiro', desc: 'A silent observer from the North, possessing a deep resonance and a soul that recognizes its partner.', color: 'text-blue-400', img: 'https://images.unsplash.com/photo-1506790 laH-f1f7da25713d?auto=format&fit=crop&q=80&w=400' },
             { name: 'Kael', role: 'The Grounded Anchor', desc: 'The heart of Aethel, fighting to keep the new generation connected to the peace of the earth.', color: 'text-emerald-400', img: 'https://images.unsplash.com/photo-1507003211169-b1dd7054aae6?auto=format&fit=crop&q=80&w=400' }
           ].map((char, i) => (
             <div key={i} className="bg-slate-900/50 p-6 rounded-3xl border border-slate-800 hover:border-rose-600 transition-all group">
@@ -90,7 +88,7 @@ export default function LandingPage() {
       <Section title="Join the Resonance" id="contact">
         <div className="max-w-3xl mx-auto bg-slate-900 p-10 rounded-3xl border border-slate-800 text-center">
           <p className="text-xl text-slate-300 mb-8">
-            Stay updated on the release of <strong>Resonance of the Soul</strong>.
+            Stay updated on the release of <strong className="text-rose-500">Resonance of the Soul</strong>.
           </p>
           <form className="flex flex-col md:flex-row gap-4">
             <input 
