@@ -1,7 +1,13 @@
 
 import React from 'react';
 
-const Section = ({ title, children, id }) => (
+interface SectionProps {
+  title: React.ReactNode | string;
+  children?: React.ReactNode;
+  id?: string;
+}
+
+const Section: React.FC<SectionProps> = ({ title, children, id }) => (
   <section id={id} className="py-20 px-6 md:px-20 border-b border-slate-800">
     <h2 className="text-4xl md:text-6xl font-bold mb-12 text-transparent bg-clip-text bg-gradient-to-r from-rose-500 to-blue-400">
       {title}
