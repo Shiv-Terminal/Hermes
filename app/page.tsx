@@ -103,7 +103,7 @@ export default function LandingPage() {
             <button className="px-12 py-4 bg-rose-600 hover:bg-rose-500 rounded-full font-bold text-white transition-all uppercase tracking-widest shadow-lg hover:scale-105 active:scale-95">
               Subscribe
             </button>
-          </form_ la
+          </form>
           <p className="mt-8 text-sm text-slate-500 italic">
             The resonance is calling. Will you answer?
           </p>
