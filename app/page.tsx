@@ -25,7 +25,7 @@ export default function LandingPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-950/50 to-slate-950" />
         
         <div className="relative z-10 text-center px-4">
-          <h1 className="text-6xl md:text-9xl font-extrabold tracking-tighter mb-6 italic">
+          <h1 className="text-6xl md:text-9xl font-extrabold tracking-tighter mb-6 italic text-white">
             RESONANCE <br />
             <span className="text-rose-600">OF THE SOUL</span>
           </h1>
